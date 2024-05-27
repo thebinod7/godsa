@@ -55,3 +55,27 @@ A node consists of data and pointer to next node.
 2. Dynamic memory allocation
 3. Undo functionality in any text editor
 4. Caching system design
+
+# [Stack]
+
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. Basic operations inlcude: Push, Pop, Peek(Top), Size, and isEmpty
+
+# Anatomy of a Stack
+
+A stack typically consists of the following operations:
+
+1. Push: Adding an element to the top of the stack.
+2. Pop: Removing and returning the top element of the stack.
+3. Peek/Top: Returning the top element of the stack without removing it.
+4. isEmpty: Checking if the stack is empty.
+5. Size: Returning the number of elements currently in the stack.
+
+# Use Cases:
+
+1. Function Call Stack
+2. Expression Evaluation: Used to evaluate postfix expressions (also known as Reverse Polish Notation).
+3. Backtracking Algorithms: Used in algorithms like Depth-First Search (DFS) to keep track of visited nodes.
+4. Undo Functionality: Used in text editors and software to implement undo operations.
+5. Compiler Design: Used in syntax parsing and expression evaluation during compilation.
+
+\*Note: Stack can be implemented using Array and Linked List
