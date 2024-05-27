@@ -1,3 +1,4 @@
+// Implement stack using queues
 function myStack() {
 	this.q1 = [];
 	this.q2 = [];
@@ -33,3 +34,4 @@ obj.push(5);
 obj.push(10);
 obj.push(15);
 obj.push(20);
+console.log("TOP=>", obj.top());
