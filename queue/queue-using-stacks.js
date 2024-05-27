@@ -1,4 +1,8 @@
-// Implement queue using stacks
+// Implement queue using stacks todos:
+// 1. enqueue(): Add into stack1 with push()
+// 2. dequeue(): If stack2 is empty remove from stack1 and add to stack2
+// 3. Remove top of stack2 using pop()
+// 4. Return top element as front
 function MyQueue() {
 	this.stack1 = [];
 	this.stack2 = [];
