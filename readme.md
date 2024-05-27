@@ -79,3 +79,25 @@ A stack typically consists of the following operations:
 5. Compiler Design: Used in syntax parsing and expression evaluation during compilation.
 
 \*Note: Stack can be implemented using Array and Linked List
+
+# Queue
+
+A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. In a queue, elements are added at the back (rear) and removed from the front
+
+# Anatomy of a Queue
+
+A queue typically supports the following operations:
+
+1. Enqueue: Add an element to the end (rear).
+2. Dequeue: Remove and return the element from the front of the queue.
+3. Front/Peek: Return the element at the front of the queue without removing it.
+4. isEmpty: Check if the queue is empty.
+5. Size: Return the number of elements in the queue.
+
+# Applications of Queues
+
+1. CPU Scheduling: Managing processes in operating systems using time-sharing and scheduling algorithms.
+2. Breadth-First Search (BFS): Implementing BFS in graph traversal algorithms.
+3. Handling Requests in Web Servers: Managing incoming requests to ensure they are processed in the order they arrive.
+4. Printer Spooling: Managing print jobs in the order they are received.
+5. Simulation Systems: Modeling real-world systems like customer service, traffic management, etc.
