@@ -1,4 +1,4 @@
-# Array
+# [Array]
 
 An array is a data structure used to store a collection of elements, typically of the same data type, in a contiguous block of memory.
 
@@ -22,7 +22,7 @@ An array is a data structure used to store a collection of elements, typically o
 3. Buffer management
 4. Sorting and Searching
 
-# Linked List
+# [Linked List]
 
 A linked list is a linear data structure where elements, called nodes, are arranged sequentially. Unlike arrays, linked lists do not store elements in contiguous memory locations. Instead, each node in a linked list contains a reference (or pointer) to the next node in the sequence.
 
